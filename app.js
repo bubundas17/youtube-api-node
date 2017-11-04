@@ -14,7 +14,7 @@ app.get('/getvideo', (req, res) => {
     }
     if (info) {
       res.json({
-        success: false,
+        success: true,
         response: info
       })
     }
