@@ -1,0 +1,25 @@
+{
+  "name": "youtube-api-node",
+  "version": "1.0.0",
+  "description": "Youtube Api Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubundas17/youtube-api-node.git"
+  },
+  "author": "bubun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bubundas17/youtube-api-node/issues"
+  },
+  "homepage": "https://github.com/bubundas17/youtube-api-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "ytdl-core": "^0.18.1"
+  }
+}
